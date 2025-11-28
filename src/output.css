@@ -496,6 +496,12 @@
   .gap-\[110px\] {
     gap: 110px;
   }
+  .gap-\[168\] {
+    gap: 168;
+  }
+  .gap-\[168px\] {
+    gap: 168px;
+  }
   .gap-\[200px\] {
     gap: 200px;
   }
@@ -865,6 +871,11 @@
       }
     }
   }
+  .md\:m-auto {
+    @media (width >= 48rem) {
+      margin: auto;
+    }
+  }
   .md\:mt-0 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 0);
@@ -905,6 +916,31 @@
       margin-left: calc(var(--spacing) * 0);
     }
   }
+  .md\:ml-40 {
+    @media (width >= 48rem) {
+      margin-left: calc(var(--spacing) * 40);
+    }
+  }
+  .md\:ml-50 {
+    @media (width >= 48rem) {
+      margin-left: calc(var(--spacing) * 50);
+    }
+  }
+  .md\:ml-55 {
+    @media (width >= 48rem) {
+      margin-left: calc(var(--spacing) * 55);
+    }
+  }
+  .md\:ml-66 {
+    @media (width >= 48rem) {
+      margin-left: calc(var(--spacing) * 66);
+    }
+  }
+  .md\:ml-auto {
+    @media (width >= 48rem) {
+      margin-left: auto;
+    }
+  }
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
@@ -938,6 +974,11 @@
   .md\:w-auto {
     @media (width >= 48rem) {
       width: auto;
+    }
+  }
+  .md\:items-center {
+    @media (width >= 48rem) {
+      align-items: center;
     }
   }
   .md\:gap-20 {
