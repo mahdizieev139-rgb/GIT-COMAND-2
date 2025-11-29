@@ -11,10 +11,10 @@
     <div class="flex items-center w-[90%] m-auto justify-between py-5">
         <div class="flex gap-10">
             <img src="./img/Logo (11).png" alt="">
-            <p>Доска объявлений</p>
-            <p>Сервисный центр</p>
-            <p>Интернет-магазин Dily.ru</p>
-            <p>Скупка</p>
+            <p class="hidden md:block">Доска объявлений</p>
+            <p class="hidden md:block">Сервисный центр</p>
+            <p class="hidden md:block">Интернет-магазин Dily.ru</p>
+            <p class="hidden md:block">Скупка</p>
         </div>
         <div class="flex gap-5">
             <div class="flex items-center gap-1">
@@ -45,13 +45,15 @@
                 <img src="./img/on.png" alt="">
                 Благотворительность
             </p>
-            <input class="px-[10px] py-[5px] ml-30 bg-white w-[300px] rounded-4xl" type="text" placeholder="🔍 Я хочу купить">
-            <button class="px-[20px] py-[5px] bg-gray-300 rounded-tr-4xl rounded-br-4xl ml-[-50px]">Найти</button>
+            <div class="hidden md:block">
+                <input class="px-[10px] py-[5px] ml-30 bg-white w-[300px] rounded-4xl" type="text" placeholder="🔍 Я хочу купить">
+                <button class="px-[20px] py-[5px] bg-gray-300 rounded-tr-4xl rounded-br-4xl ml-[-50px]">Найти</button>
+            </div>
         </div>
-        <button class="px-[20px] py-[5px] bg-green-600 text-white rounded-4xl">Нужна помощь</button>
+        <button class="px-[20px] py-[5px] bg-green-600 text-white rounded-4xl hidden md:block">Нужна помощь</button>
     </div><hr class="mb-20">
 
-    <div class="flex px-41 items-center m-auto justify-between bg-orange-200 ">
+    <div class="flex-wrap px-10 items-center m-auto justify-between bg-orange-200 md:flex md:px-41">
         <div>
             <p class="text-5xl mb-10 text-[#F89358]">Отдай, если можешь <br> Прими,если хочешь</p>
             <p class="text-2xl mb-10">Мы помогаем людям,одновременно <br> решая социальные и экологические <br> проблемы</p>
