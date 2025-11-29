@@ -201,6 +201,15 @@
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
+  .mb-30 {
+    margin-bottom: calc(var(--spacing) * 30);
+  }
+  .ml-0 {
+    margin-left: calc(var(--spacing) * 0);
+  }
+  .ml-3 {
+    margin-left: calc(var(--spacing) * 3);
+  }
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
@@ -210,11 +219,26 @@
   .ml-30 {
     margin-left: calc(var(--spacing) * 30);
   }
+  .ml-35 {
+    margin-left: calc(var(--spacing) * 35);
+  }
+  .ml-40 {
+    margin-left: calc(var(--spacing) * 40);
+  }
   .ml-50 {
     margin-left: calc(var(--spacing) * 50);
   }
+  .ml-\[\%\] {
+    margin-left: %;
+  }
   .ml-\[-50px\] {
     margin-left: -50px;
+  }
+  .ml-\[35\%\] {
+    margin-left: 35%;
+  }
+  .ml-\[38\%\] {
+    margin-left: 38%;
   }
   .ml-\[40\%\] {
     margin-left: 40%;
@@ -240,6 +264,12 @@
   .h-\[190px\] {
     height: 190px;
   }
+  .h-\[389\] {
+    height: 389;
+  }
+  .h-\[389px\] {
+    height: 389px;
+  }
   .w-\[80\%\] {
     width: 80%;
   }
@@ -255,8 +285,17 @@
   .w-\[190px\] {
     width: 190px;
   }
+  .w-\[250\] {
+    width: 250;
+  }
+  .w-\[250px\] {
+    width: 250px;
+  }
   .w-\[300px\] {
     width: 300px;
+  }
+  .w-\[5250\] {
+    width: 5250;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -293,6 +332,9 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .gap-30 {
     gap: calc(var(--spacing) * 30);
@@ -407,11 +449,20 @@
   .px-70 {
     padding-inline: calc(var(--spacing) * 70);
   }
+  .px-\[5\] {
+    padding-inline: 5;
+  }
   .px-\[10px\] {
     padding-inline: 10px;
   }
   .px-\[20px\] {
     padding-inline: 20px;
+  }
+  .px-\[50px\] {
+    padding-inline: 50px;
+  }
+  .px-\[80px\] {
+    padding-inline: 80px;
   }
   .px-\[100\%\] {
     padding-inline: 100%;
@@ -477,6 +528,11 @@
   .md\:ml-0 {
     @media (width >= 48rem) {
       margin-left: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:ml-\[40\%\] {
+    @media (width >= 48rem) {
+      margin-left: 40%;
     }
   }
   .md\:block {
