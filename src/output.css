@@ -231,6 +231,9 @@
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
   }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
@@ -282,6 +285,15 @@
   .table {
     display: table;
   }
+  .h-\[24px\] {
+    height: 24px;
+  }
+  .h-\[41px\] {
+    height: 41px;
+  }
+  .h-\[80px\] {
+    height: 80px;
+  }
   .h-\[189px\] {
     height: 189px;
   }
@@ -297,8 +309,14 @@
   .h-\[389px\] {
     height: 389px;
   }
+  .w-\[24\%\] {
+    width: 24%;
+  }
   .w-\[80\%\] {
     width: 80%;
+  }
+  .w-\[80px\] {
+    width: 80px;
   }
   .w-\[90\%\] {
     width: 90%;
@@ -312,11 +330,20 @@
   .w-\[190px\] {
     width: 190px;
   }
+  .w-\[210px\] {
+    width: 210px;
+  }
   .w-\[250\] {
     width: 250;
   }
   .w-\[250px\] {
     width: 250px;
+  }
+  .w-\[270\] {
+    width: 270;
+  }
+  .w-\[270px\] {
+    width: 270px;
   }
   .w-\[280px\] {
     width: 280px;
@@ -332,6 +359,9 @@
   }
   .w-\[5250\] {
     width: 5250;
+  }
+  .w-full {
+    width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -362,6 +392,9 @@
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
+  }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
@@ -396,6 +429,9 @@
   .rounded-\[8px\] {
     border-radius: 8px;
   }
+  .rounded-\[10px\] {
+    border-radius: 10px;
+  }
   .rounded-tr {
     border-top-right-radius: 0.25rem;
   }
@@ -411,6 +447,13 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-none {
+    --tw-border-style: none;
+    border-style: none;
+  }
+  .bg-\[\#00C65E\] {
+    background-color: #00C65E;
   }
   .bg-\[\#F89358\] {
     background-color: #F89358;
@@ -445,6 +488,12 @@
       --tw-gradient-position: to right in oklab;
     }
     background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
   }
   .px-0 {
     padding-inline: calc(var(--spacing) * 0);
@@ -573,6 +622,10 @@
   .outline-1 {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .outline-none {
+    --tw-outline-style: none;
+    outline-style: none;
   }
   .md\:ml-0 {
     @media (width >= 48rem) {
