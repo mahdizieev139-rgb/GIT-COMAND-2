@@ -169,6 +169,21 @@
   }
 }
 @layer utilities {
+  .relative {
+    position: relative;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .top-\[-20\] {
+    top: -20;
+  }
+  .top-\[-20px\] {
+    top: -20px;
+  }
+  .top-\[-40px\] {
+    top: -40px;
+  }
   .m-auto {
     margin: auto;
   }
@@ -190,6 +205,12 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
+  .mt-50 {
+    margin-top: calc(var(--spacing) * 50);
+  }
   .flex {
     display: flex;
   }
@@ -207,6 +228,12 @@
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
+  }
+  .w-70 {
+    width: calc(var(--spacing) * 70);
+  }
+  .w-80 {
+    width: calc(var(--spacing) * 80);
   }
   .w-90 {
     width: calc(var(--spacing) * 90);
@@ -270,11 +297,17 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .p-8 {
+    padding: calc(var(--spacing) * 8);
+  }
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
+  }
+  .text-center {
+    text-align: center;
   }
   .text-2xl {
     font-size: var(--text-2xl);
